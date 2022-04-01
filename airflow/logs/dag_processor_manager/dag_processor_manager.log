@@ -1,0 +1,228 @@
+[2022-03-30 21:08:09,835] {dag_processing.py:839} INFO - Processing files using up to 1 processes at a time 
+[2022-03-30 21:08:09,835] {dag_processing.py:840} INFO - Process each file at most once every 0 seconds
+[2022-03-30 21:08:09,835] {dag_processing.py:841} INFO - Checking for new files in /home/pelica/datapipeline/airflow/dags every 300 seconds
+[2022-03-30 21:08:09,837] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:08:09,837] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:03:09.837349+00:00
+[2022-03-30 21:08:09,952] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2022-03-31T00:08:09
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2022-03-30 21:08:21,834] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:08:21,834] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:03:21.834487+00:00
+[2022-03-30 21:08:33,849] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:08:33,849] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:03:33.849489+00:00
+[2022-03-30 21:08:39,963] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2022-03-31T00:08:21
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2022-03-31T00:08:11
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2022-03-31T00:08:15
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2022-03-31T00:08:17
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2022-03-31T00:08:09
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2022-03-31T00:08:35
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-03-31T00:08:19
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2022-03-31T00:08:29
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2022-03-31T00:08:39
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2022-03-31T00:08:27
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2022-03-31T00:08:25
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2022-03-31T00:08:13
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2022-03-31T00:08:23
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2022-03-31T00:08:37
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2022-03-31T00:08:33
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2022-03-31T00:08:31
+================================================================================
+[2022-03-30 21:08:45,865] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:08:45,865] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:03:45.865640+00:00
+[2022-03-30 21:08:57,880] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:08:57,881] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:03:57.881170+00:00
+[2022-03-30 21:09:09,895] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:09:09,896] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:04:09.896028+00:00
+[2022-03-30 21:09:10,042] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2022-03-31T00:08:21
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-03-31T00:08:49
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2022-03-31T00:09:01
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2022-03-31T00:08:45
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2022-03-31T00:09:05
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2022-03-31T00:09:07
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2022-03-31T00:08:59
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2022-03-31T00:08:35
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2022-03-31T00:08:47
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-03-31T00:09:10
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2022-03-31T00:08:51
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2022-03-31T00:08:29
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2022-03-31T00:08:43
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2022-03-31T00:08:39
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2022-03-31T00:08:58
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2022-03-31T00:08:27
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2022-03-31T00:08:25
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2022-03-31T00:09:03
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2022-03-31T00:08:41
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2022-03-31T00:08:23
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2022-03-31T00:08:37
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2022-03-31T00:08:53
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.20s           2022-03-31T00:08:56
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2022-03-31T00:08:33
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2022-03-31T00:08:31
+================================================================================
+[2022-03-30 21:09:21,911] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:09:21,911] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:04:21.911568+00:00
+[2022-03-30 21:09:33,927] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:09:33,927] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:04:33.927371+00:00
+[2022-03-30 21:09:42,044] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2022-03-31T00:09:12
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-03-31T00:09:40
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2022-03-31T00:09:01
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2022-03-31T00:09:36
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2022-03-31T00:09:05
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2022-03-31T00:09:07
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2022-03-31T00:08:59
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2022-03-31T00:09:26
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2022-03-31T00:09:38
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-03-31T00:09:10
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2022-03-31T00:09:42
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2022-03-31T00:09:20
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2022-03-31T00:09:34
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2022-03-31T00:09:30
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2022-03-31T00:08:58
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2022-03-31T00:09:18
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2022-03-31T00:09:16
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2022-03-31T00:09:03
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2022-03-31T00:09:32
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2022-03-31T00:09:14
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2022-03-31T00:09:28
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2022-03-31T00:08:53
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.20s           2022-03-31T00:08:56
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2022-03-31T00:09:24
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2022-03-31T00:09:22
+================================================================================
+[2022-03-30 21:09:45,942] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:09:45,942] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:04:45.942440+00:00
+[2022-03-30 21:09:57,958] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:09:57,959] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:04:57.959133+00:00
+[2022-03-30 21:10:09,973] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:10:09,973] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:05:09.973853+00:00
+[2022-03-30 21:10:12,082] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2022-03-31T00:10:02
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2022-03-31T00:09:40
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2022-03-31T00:09:52
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2022-03-31T00:09:36
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2022-03-31T00:09:56
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2022-03-31T00:09:58
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2022-03-31T00:09:50
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2022-03-31T00:09:26
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2022-03-31T00:09:38
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2022-03-31T00:10:00
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2022-03-31T00:09:42
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2022-03-31T00:10:10
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2022-03-31T00:09:34
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2022-03-31T00:09:30
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2022-03-31T00:09:48
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2022-03-31T00:10:08
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2022-03-31T00:10:06
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2022-03-31T00:09:54
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2022-03-31T00:09:32
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2022-03-31T00:10:04
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2022-03-31T00:09:28
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2022-03-31T00:09:44
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.20s           2022-03-31T00:09:46
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2022-03-31T00:09:24
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2022-03-31T00:10:12
+================================================================================
+[2022-03-30 21:10:21,990] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:10:21,991] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:05:21.991194+00:00
+[2022-03-30 21:12:00,778] {dag_processing.py:839} INFO - Processing files using up to 1 processes at a time 
+[2022-03-30 21:12:00,780] {dag_processing.py:840} INFO - Process each file at most once every 0 seconds
+[2022-03-30 21:12:00,780] {dag_processing.py:841} INFO - Checking for new files in /home/pelica/datapipeline/airflow/dags every 300 seconds
+[2022-03-30 21:12:00,783] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:12:00,783] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:07:00.783743+00:00
+[2022-03-30 21:12:00,928] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/pelica/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-03-31T00:12:00
+================================================================================
+[2022-03-30 21:12:12,764] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:12:12,765] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:07:12.765462+00:00
+[2022-03-30 21:12:22,778] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-03-30 21:12:22,779] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2022-03-31 00:07:22.779757+00:00
